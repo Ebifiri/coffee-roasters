@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="w-full h-full rounded-xl bg-[url('./src/assets/about/desktop/image-hero-whitecup.jpg')] bg-cover">
+    <section class="w-full h-full rounded-xl bg-[url('../assets/about/desktop/image-hero-whitecup.jpg')] bg-cover">
       <section class="w-2/5 px-20 py-40 space-y-14">
         <p class="font-bold font-fraunces text-6xl text-white text-left">About Us</p>
         <p class="font-barlow text-white text-left text-lg"> Coffeeroasters began its journey of exotic discovery in 1999, highlighting stories of coffee from around the world.
