@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="w-full h-full rounded-xl bg-[url('./src/assets/home/desktop/image-hero-coffeepress.jpg')] bg-cover">
+    <section class="w-full h-full rounded-xl bg-[url('../assets/home/desktop/image-hero-coffeepress.jpg')] bg-cover">
       <section class="w-2/5 px-20 py-40 space-y-14">
         <p class="font-bold text-6xl text-white text-left">Great coffee made simple.</p>
         <p class="text-white text-left text-lg">Start your mornings with the world’s best coffees.
