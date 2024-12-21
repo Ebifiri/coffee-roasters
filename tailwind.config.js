@@ -11,6 +11,7 @@ export default {
         'light-black' : 'hsl(216, 17%, 21%)',
         'teal' : 'hsl(179, 81%, 29%)',
         'cream' : 'hsl(25, 95%, 86%)',
+        'active-teal' : 'hsl(179, 55%, 61%)',
       },
       fontFamily: {
         'barlow' : ['Barlow, sans-serif'],
