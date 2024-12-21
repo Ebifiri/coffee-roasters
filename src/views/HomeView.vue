@@ -1,7 +1,7 @@
 <template>
   <div class="overflow-x-hidden">
     <section class="w-full h-full rounded-xl bg-[url('../assets/home/desktop/image-hero-coffeepress.jpg')] bg-cover">
-      <section class="flex flex-col items-center 2xl:w-1/2 p-10 2xl:p-0 2xl:px-20 2xl:py-32 space-y-14">
+      <section class="flex flex-col items-center 2xl:items-start 2xl:w-1/2 p-10 2xl:p-0 2xl:px-20 2xl:py-32 space-y-14">
         <p class="font-bold font-fraunces text-4xl 2xl:text-8xl text-white text-center 2xl:text-left">Great coffee made simple.</p>
         <p class="text-gray-300 font-barlow text-center 2xl:text-left text-lg 2xl:pr-40">Start your mornings with the world’s best coffees.
           Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
@@ -12,7 +12,7 @@
         </section>
       </section>
     </section>
-    <section class="my-40">
+    <section class="my-40 2xl:my-0">
       <section class="2xl:py-40 2xl:px-20 grid grid-rows-4 space-y-10 2xl:space-y-0 2xl:grid-cols-4 gap-3">
         <section class="flex flex-col items-center">
           <img src="../assets/home/desktop/image-gran-espresso.png" class="w-1/2 2xl:w-3/4">
@@ -36,7 +36,7 @@
         </section>
       </section>
     </section>
-    <section class="h-[1500px] 2xl:h-[810px] flex flex-col items-center">
+    <section class="h-[1500px] 2xl:h-[810px] flex flex-col items-center 2xl:items-start">
       <section class="flex flex-col items-center h-4/5 w-full bg-light-black rounded-xl">
         <p class="text-3xl 2xl:text-5xl text-white font-fraunces font-bold py-10 2xl:p-20">Why choose us?</p>
         <p class="2xl:w-2/5 text-gray-300 font-barlow text-md 2xl:text-lg px-10 pb-20">A large part of our role is choosing which particular coffees will be featured in our range.
@@ -68,7 +68,7 @@
         </section>
       </section>
     </section>
-    <section class="flex flex-col items-center 2xl:px-48 mt-[650px] 2xl:mt-52 space-y-16">
+    <section class="flex flex-col items-center 2xl:items-start 2xl:px-48 mt-[650px] 2xl:mt-52 space-y-16">
       <p class="text-left font-fraunces font-bold text-gray-500 text-3xl">How it works</p>
       <section class="flex invisible 2xl:visible">
         <span class="border-2 h-8 w-8 rounded-full border-teal"></span>
@@ -77,28 +77,28 @@
         <span class="border-t-2 w-[375px] mt-4 border-cream"></span>
         <span class="border-2 h-8 w-8 rounded-full border-teal"></span>
       </section>
-      <section class="grid grid-rows-3 2xl:grid-cols-3 place-items-center gap-5 mt-20">
+      <section class="grid grid-rows-3 2xl:grid-cols-3 place-items-center 2xl:place-items-start gap-5 mt-20">
         <section class="space-y-10">
-          <p class="font-fraunces font-black text-7xl text-center text-cream">01</p>
-          <p class="text-light-black text-center 2xl:pr-28 text-4xl font-fraunces font-black">Pick your coffee</p>
-          <p class="text-light-black text-center 2xl:pr-28 font-barlow text-lg">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them.
+          <p class="font-fraunces font-black text-7xl text-center 2xl:text-left text-cream">01</p>
+          <p class="text-light-black text-center 2xl:text-left 2xl:pr-28 text-4xl font-fraunces font-black">Pick your coffee</p>
+          <p class="text-light-black text-center 2xl:text-left 2xl:pr-28 font-barlow text-lg">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them.
              There are new coffees in all profiles every month for you to try out.</p>
         </section>
         <section class="space-y-10">
-          <p class="font-fraunces font-black text-7xl text-center text-cream">02</p>
-          <p class="text-light-black text-center 2xl:pr-28 text-4xl font-fraunces font-black">Choose the frequency</p>
-          <p class="text-light-black text-center 2xl:pr-28 font-barlow text-lg">Customize your order frequency, quantity, even your roast style and grind type.
+          <p class="font-fraunces font-black text-7xl text-center 2xl:text-left text-cream">02</p>
+          <p class="text-light-black text-center 2xl:text-left 2xl:pr-28 text-4xl font-fraunces font-black">Choose the frequency</p>
+          <p class="text-light-black text-center 2xl:text-left 2xl:pr-28 font-barlow text-lg">Customize your order frequency, quantity, even your roast style and grind type.
             Pause, skip or cancel your subscription with no commitment through our online portal.</p>
         </section>
         <section class="space-y-10">
-          <p class="font-fraunces font-black text-7xl text-center text-cream">03</p>
-          <p class="text-light-black text-center 2xl:pr-28 text-4xl font-fraunces font-black">Receive and enjoy!</p>
-          <p class="text-light-black text-center 2xl:pr-28 font-barlow text-lg">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
+          <p class="font-fraunces font-black text-7xl text-center 2xl:text-left text-cream">03</p>
+          <p class="text-light-black text-center 2xl:text-left 2xl:pr-28 text-4xl font-fraunces font-black">Receive and enjoy!</p>
+          <p class="text-light-black text-center 2xl:text-left 2xl:pr-28 font-barlow text-lg">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
         </section>
       </section>
       <section>
         <router-link to="/createplan">
-          <button class="bg-dark-green text-white font-fraunces font-bold px-5 py-3 mt-14 2xl:w-1/6 rounded hover:bg-active-teal">Create your plan</button>
+          <button class="bg-dark-green text-white font-fraunces font-bold px-5 py-3 mt-14  rounded hover:bg-active-teal">Create your plan</button>
         </router-link>
       </section>
     </section>
